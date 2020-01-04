@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ayoub BELKACEMI</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,700,900" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-offset="80" data-target="#thenavbar">
+  <div id="thenavbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#hello" class="smoothscroll">Accueil</a></li>
+          <li><a href="#green" class="smoothscroll">A propos</a></li>
+          <li><a href="#portfolio" class="smoothscroll">Projets</a></li>
+          <li><a href="#contact" class="smoothscroll">Me contacter</a></li>
+          <li><a href="https://github.com/BelkacemiAyoub/">Github</a></li>
+          <li><a href="CV_Ayoub_BELKACEMI.pdf">Mon CV</a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+  <div id="hello">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 centered">
+          <h1 id="nom">Ayoub BELKACEMI</h1>
+          <h2>Developpeur Web Junior</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="green">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 centered">
+          <img src="img/iphone.png" alt="">
+        </div>
+
+        <div class="col-lg-7 centered">
+          <h3>Bienvenue !</h3>
+          <p>
+            Je m'appelle Ayoub. Je suis un apprenti developpeur web FULLSTACK et
+            j'ai intégré la formation développeur et intégrateur web de la Web@cadémie.
+            Vous pouvez voir mes derniers projets ci-dessous. Je vous invite également à vous rendre sur mon Github pour en savoir plus les autres projets que j'ai réalisé.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="portfolio"></div>
+  <div class="container">
+    <div class="row centered mt grid">
+      <h3>Mes dernier projets</h3>
+      <div class="mt"></div>
+      <div class="col-lg-4">
+        <a href="https://github.com/BelkacemiAyoub/my_snapchat"><img src="img/my_snapchat.jpg" width="300px" height="400px"alt="my_snapchat"></a>
+      </div>
+      <div class="col-lg-4">
+        <a href="https://github.com/BelkacemiAyoub/my_twitter"><img src="img/twitthack.png" width="300px" height="400px"alt="my_twitter"></a>
+      </div>
+      <div class="col-lg-4">
+        <a href="https://github.com/BelkacemiAyoub/Puissance4"><img src="img/connect4.PNG" width="300px" height="400px"alt="my_twitter"></a>
+
+      </div>
+    </div>
+
+    <div class="row mt centered">
+      <div class="col-lg-7 col-lg-offset-1 mt">
+        <p class="lead">Si vous avez besoin de plus de renseignements je vous invite à me contacter via le formulaire au bas de la page. </p>
+      </div>
+
+      <div class="col-lg-3 mt">
+        <p><a href="#contact" class="btn btn-theme btn-lg smoothscroll" title="Vous êtes le genre de personne qui habite au premier étage mais qui prend l'ascenceur">La flemme ?</a></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="skills">
+    <div class="container">
+      <div class="row centered">
+        <h3>MES SKILLS</h3>
+        <div class="col-lg-3 mt" id="js">
+          <canvas id="react" height="130" width="130">
+          </canvas>
+          <p>ReactJS/Native</p>
+          <br>
+        </div>
+        <div class="col-lg-3 mt">
+          <canvas id="nodejs" height="130" width="130"></canvas>
+          <p>NodeJS</p>
+          <br>
+        </div>
+        <div class="col-lg-3 mt">
+          <canvas id="laravel" height="130" width="130"></canvas>
+          <p>Laravel</p>
+          <br>
+        </div>
+        <div class="col-lg-3 mt">
+          <canvas id="symfony" height="130" width="130"></canvas>
+          <p>Symfony</p>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /skills -->
+
+  <section id="contact">
+
+    <div id="social">
+      <div class="container">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <form class="contact-form php-mail-form" role="form" action="form.php" method="POST">
+
+            <div class="form-group">
+              <input type="name" name="name" class="form-control" id="contact-name" placeholder="Nom" data-rule="minlen:4" data-msg="Merci d'entrée 4 caractères minimum" >
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Adresse mail" data-rule="email" data-msg="Veuillez entrer une adresse valide">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Sujet" data-rule="minlen:4" data-msg="Merci d'entrée 8 caractères minimum">
+              <div class="validate"></div>
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-control" name="message" id="contact-message" placeholder="Votre message" rows="5" data-rule="required" data-msg="Quel est votre message ?"></textarea>
+              <div class="validate"></div>
+            </div>
+
+            <div class="loading"></div>
+            <div class="error-message"></div>
+            <div class="sent-message">Votre message a bien été envoyer. Merci !</div>
+
+            <div class="form-send">
+              <button type="submit" class="btn btn-large">Envoyer</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/chart/chart.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
